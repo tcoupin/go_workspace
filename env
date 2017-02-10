@@ -1,0 +1,1 @@
+alias goLaunch="docker run -it --rm -p 8080:8080 -h go -e USER=$USER -u $UID:$GID -v $PWD:/go -v /home:/home -e HOME=$HOME golang /bin/bash -c \"useradd $USER;bash\""
