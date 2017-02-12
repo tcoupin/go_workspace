@@ -12,4 +12,5 @@ Cesar: ckved
 
 ```
 $ go test cesar/crypto
+ok  	cesar/crypto	0.002s
 ```
